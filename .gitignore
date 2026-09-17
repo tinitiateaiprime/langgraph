@@ -1,0 +1,24 @@
+# Local secrets and environment files
+**/settings.config
+.env
+.env.*
+!.env.example
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Generated databases and pipeline outputs
+*.sqlite3
+*.db
+to-review/ml-automation-genai-agents-agenticloop/source-data/*
+!to-review/ml-automation-genai-agents-agenticloop/source-data/.gitkeep
+to-review/ml-automation-genai-agents-agenticloop/target-data/*
+!to-review/ml-automation-genai-agents-agenticloop/target-data/.gitkeep
+to-review/ml-automation-genai-agents-agenticloop/state/*
+!to-review/ml-automation-genai-agents-agenticloop/state/.gitkeep
